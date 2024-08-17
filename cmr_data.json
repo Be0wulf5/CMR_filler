@@ -1,0 +1,12 @@
+{
+    "sender": "Sender",
+    "receiver": "Receiver",
+    "carrier": "Sender stamp",
+    "place_of_loading": "Loading place",
+    "place_of_unloading": "Unloading place",
+    "goods": "Goods",
+    "weight": "Weight",
+    "pieces": "City-sender",
+    "date_of_dispatch": "dd-mm-yyyy",
+    "vehicle_number": "Truck / Trailer"
+}
