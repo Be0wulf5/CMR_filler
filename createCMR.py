@@ -46,6 +46,7 @@ def create_cmr_from_template(template_file, output_file, data):
         ("place_of_loading", 30, 60, 535),
         ("place_of_unloading", 30, 60, 595),
         ("goods", 40, 60, 430),
+        ("goods_2", 50, 70, 410),
         ("weight", 30, 435, 430),
         ("pieces", 30, 100, 137),
         ("date_of_dispatch", 30, 210, 137),
@@ -120,6 +121,7 @@ fields = [
     ("Место погрузки", "place_of_loading"),
     ("Место выгрузки", "place_of_unloading"),
     ("Товары", "goods"),
+    ("Товары_2", "goods_2"),
     ("Вес", "weight"),
     ("Город отправитель", "pieces"),
     ("Дата отправки", "date_of_dispatch"),
@@ -130,7 +132,7 @@ entries = {}
 default_values = {
     "sender": "Sender", "receiver": "Receiver", "carrier": "Sender stamp",
     "place_of_loading": "Loading place", "place_of_unloading": "Unloading place",
-    "goods": "Goods", "weight": "Weight", "pieces": "City-sender",
+    "goods": "Goods", "goods_2": "Goods_2", "weight": "Weight", "pieces": "City-sender",
     "date_of_dispatch": "dd-mm-yyyy", "vehicle_number": "Truck / Trailer"
 }
 
