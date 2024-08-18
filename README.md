@@ -1,3 +1,3 @@
 It app helps you to fill the CMR
 
-Place the file "stamp.png" to have a stamped document
+For prevent the error rename "stamp_.png" to "stamp.png"
